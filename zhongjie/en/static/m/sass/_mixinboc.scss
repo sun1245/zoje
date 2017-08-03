@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+@mixin tran($duration: color, $time: 0.5s){
+    transition-duration:$time;
+    -webkit-transition-duration:$time;
+    -ms-transition-duration:$time;
+    -o-transition-duration:$time;
+    transition-property:$duration;
+    -webkit-transition-property:$duration;
+    -ms-transition-property:$duration;
+    -o-transition-property:$duration;
+}
+// 字体
+@mixin fz($fz: 12px, $color: #666, $lh: 2){
+	font-size: $fz;
+	line-height: $lh;
+    color: $color;
+}
+// 位置
+@mixin w($width: 1000px){
+	width : $width;
+    margin-right: auto;
+    margin-left: auto;
+}
+@mixin enter($location: left, $distance: 20px){
+    position: relative;
+    opacity: 0;
+    @if $location == left {
+        left : $distance;
+    }
+    @else {
+        top : $distance;
+    }
+}
+
+// 50%定位
+@mixin poshalf($size:1920px, $direction: left){
+	position: absolute;
+    @if $direction == left {
+        left: 50%;
+        width: $size;
+        margin-left: - $size / 2;
+    }@else {
+        top: 50%;
+        height: $size;
+        margin-top: - $size / 2;
+    }
+}
+
+// 动画
+@mixin tf($type: all, $time : 0.5s){
+	transition: $type $time;
+}
+
+// fixed top & bottom
+@mixin fixed($pos: 0) {
+    position: fixed;
+    left: 0;
+    right: 0;
+    @if $pos == bottom {
+        bottom: 0;
+    }
+    @else {
+        top: $pos;
+    }
+}
+%fixed-top{
+    @include fixed;
+}
+%fixed-bottom{
+    @include fixed($pos: bottom);
+}
+
+// 弹窗背景
+@mixin out($mainwidth: 720px, $mainheight: 480px, $colsebg: "../img/close01.png",$bgcolor: #000, $bgopacity: 0.5){
+    .bg{
+        background: $bgcolor;
+        opacity: $bgopacity;
+    }
+    .main{
+        left: 50%;
+        width: $mainwidth;
+        height: $mainheight;
+        margin-left: - $mainwidth / 2;
+    }
+    .close{
+        background: background($colsebg);
+        cursor: pointer;
+    }
+}

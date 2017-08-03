@@ -1,0 +1,88 @@
+/*base*/
+.css-face{
+    transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+
+/*招聘模板三*/
+.recruitwrap3{
+	width: 1200px;
+	margin: 0 auto 45px;
+	background: #fff;
+	border: 1px solid #f4f4f4;
+}
+.recruitwrap3 li{
+	width: 100%;
+	padding: 17px 0 16px;
+	border-bottom: 2px solid #f4f4f4;
+	position: relative;
+}
+.recruitwrap3 li .left{
+	width: 140px;
+	padding-left: 45px;
+	font-size: 16px;
+	color: #666;
+	line-height: 26px;
+	padding-top: 16px;
+}
+.recruitwrap3 li .right{
+	width: 925px;
+	margin-right: 35px;
+	border-left: 1px solid #e2e2e2;
+	padding-left: 31px;
+}
+.recruitwrap3 li .right .top{
+	height: 96px;
+}
+.recruitwrap3 li .right .top .box{
+	width: 689px;
+	padding: 5px 0 0;
+}
+.recruitwrap3 li .right .top .box .line1{
+	float: left;
+	width: 689px;
+}
+.recruitwrap3 li .right .top .box p{
+	float: left;
+	font-size: 14px;
+	color: #949494;
+	line-height: 24px;
+	width: 225px;
+	margin: 10px 0;
+}
+.recruitwrap3 li .right .top .box p em{
+	color: #666666;
+	font-style: normal;
+}
+.recruitwrap3 li .right .link{
+	width: 236px;
+	margin-top: 30px;
+}
+.recruitwrap3 li .right .link a{
+	float: left;
+	width: 112px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	font-size: 14px;
+}
+.recruitwrap3 li .right .link .more{
+	background: #dcdcdc;
+	color: #666;
+	margin-right: 12px;
+}
+.recruitwrap3 li .right .link .need{
+	background: #7f7f7f;
+	color: #fff;
+}
+.recruitwrap3 li .right .link a:hover{
+	opacity: 0.8;
+	filter:alpha(opacity=80); 
+}
+.recruitwrap3 li .right .bot{
+	font-size: 14px;
+	color: #666666;
+	line-height:22px;
+	display: none;
+}

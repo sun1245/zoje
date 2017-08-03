@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mapBox {
+	height: 515px;
+}
+.addrBox {
+    border: 1px solid #B9B9B9;
+    height: 421px;
+    opacity: 0.95;
+    position: absolute;
+    right: 15px;
+    top: 30px;
+    width: 270px;
+    background: #fff;
+}
+.mapControlBtn {
+    /*background: url(../img/bg/mapControlBtn-show_27x27.gif) no-repeat;*/
+    cursor: pointer;
+    height: 27px;
+    right: 423px;
+    position: absolute;
+    top: 70px;
+    width: 27px;
+    z-index: 55;
+}
+.dealerMap .on {
+    background: url(../img/bg/mapControlBtn_27x27.gif) no-repeat;
+}
+.dealerMap .mapTlStyle {
+}
+.dealerMap .DorsettStyle, .dealerMap .GleagleStyle, .dealerMap .BritishStyle {
+    color: #0067B2;
+    font-family: "宋体";
+    font-size: 14px;
+    font-weight: bold;
+}
+.dealerMap .DorsettStyle {
+    background: url(../img/sign01_32x21.jpg) no-repeat scroll 0 2px;
+    padding-left: 40px;
+    width: 190px;
+}
+.dealerMap .GleagleStyle {
+    background: url(../img/sign02_25x21.jpg) no-repeat scroll 0 1px;
+    padding: 33px;
+    width: 197px;
+}
+.dealerMap .BritishStyle {
+    background: url(../img/sign03_21x21.jpg) no-repeat scroll 0 1px;
+    padding-left: 29px;
+    width: 201px;
+}
+.dealerMap .contF {
+    width: 236px;
+}
+.dealerMap .contF .mapBtn {
+    margin-top: 9px;
+}
+.dealerMap .contF .mapBtn li {
+    float: left;
+    margin-right: 4px;
+}
+.dealerMap .contF .mapBtn li a {
+    color: #FFFFFF;
+    display: block;
+    line-height: 23px;
+    text-align: center;
+}
+.dealerMap .contF .mapBtn .btn_01 {
+    background: url(../img/bg/mapBtn_68x25.jpg) no-repeat;
+    height: 25px;
+    width: 68px;
+}
+.dealerMap .contF .mapBtn .btn_01 a {
+    height: 23px;
+    width: 66px;
+}
+.dealerMap .contF .mapBtn .btn_02 {
+    background: url(../img/bg/mapBtn01_88x25.jpg) no-repeat;
+    height: 25px;
+    width: 88px;
+}
+.dealerMap .contF .mapBtn .btn_02 a {
+    height: 25px;
+    width: 88px;
+}
+.mapMsgBox {
+    height: 375px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 220px;
+}
+.mapMsgBox ul {
+    position: absolute;
+    top: 0;
+    width: 220px;
+}
+.mapMsgBox li {
+	padding: 15px 0;
+    border-bottom: 1px solid #DFE0E1;
+    cursor: pointer;
+}
+.mapMsgBox li .contF {
+    margin-left: 25px;
+    padding: 6px 5px;
+    width: 210px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.mapMsgBox li .contF h4, .mapMsgBox li .contF p {
+    font-family: "微软雅黑";
+    font-size: 12px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    color: #656462;
+}
+.mapMsgBox li .contF h4 {
+    color: #2A2A2A;
+    font-weight: bold;
+}
+.mapMsgBox .msgSignBox {
+    height: auto;
+    width: auto;
+}
+.mapMsgBox .msgSign {
+    background: url(../img/bg/mapSign_19x28.gif) no-repeat scroll 0 8px;
+}
+.addrBox .mapTopBtn, .addrBox .mapBottBtn {
+    display: block;
+    height: 23px;
+    width: 270px;
+    overflow: hidden;
+    background: url(../img/bg/mapScrollBtn.png) no-repeat;
+}
+.addrBox .mapTopBtn {
+    background-position: center 0;
+}
+.addrBox .mapBottBtn {
+    background-position: center -23px;
+}

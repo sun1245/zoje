@@ -1,0 +1,33 @@
+/*base*/
+.css-face{
+    transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+
+/*招聘模板四*/
+.recruitwrap4{
+	width: 1200px;
+	margin: 0 auto;
+}
+.recruitwrap4 tr th{
+	font-size: 16px;
+	height: 50px;
+	background: #d2222a;
+	color: #fff;
+}
+.recruitwrap4 tr td{
+	height: 40px;
+	text-align: center;
+	border-top: 1px solid #fff;
+	cursor: pointer;
+	background: #f8f8f8;
+	color: #616161;
+	font-size: 14px;
+}
+.recruitwrap4 tr td a{
+	color: #616161;
+}
+.recruitwrap4 tr td a:hover{
+	color: #d2222a;
+}

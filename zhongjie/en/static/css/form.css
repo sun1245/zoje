@@ -1,0 +1,197 @@
+@charset "utf-8";
+/*
+-----------
+** 应聘表单  **
+-----------
+*/
+.applay-tb{
+    width: 960px;
+    margin: 0 auto;
+}
+.applay-tb .spred {
+    font-size: 18px;
+    font-family: Arial;
+    color:#F00;
+    margin-left: 12px;
+}
+.applay-tb {
+    border:0;
+    border-width: 0 0 1px 1px;}
+.applay-tb  td {
+    padding: 8px 6px;
+    border:0;
+    border-width:1px 1px 0 0;
+    font-size: 14px;
+}
+.applay-tb  td {
+    line-height: 1.8;
+}
+.applay-tb .applay-input{
+    width: 180px;
+    height: 18px;
+    padding: 8px 10px;
+    line-height: 18px;
+    color: #666;
+    border: 1px solid #dddddd;
+    box-shadow: 2px 2px 2px #f4f4f4 inset;
+    background: #fff;
+    font-size: 14px;
+}
+.applay-tb select.applay-input{
+    height: 34px;
+    width: 200px;
+}
+.applay-tb textarea.applay-input{
+    width: 820px;
+    height: 100px;
+}
+.applay-tb .applay-input.code{
+    width: 90px;
+    margin-right: 8px;
+}
+.applay-tb .submit{
+    width: 150px;
+    height: 35px;
+    background: #f88000;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+.applay-tb .error {
+    border-color: #D70128;
+}
+
+/*
+-----------
+** 应聘表单手机站  **
+-----------
+*/
+
+@media (max-width: 767px){
+    .applay-tb{
+        width:100%;
+        margin: 0 auto;
+    }
+    .applay-tb td{
+       display: block;
+       position: relative; 
+    }
+    .applay-tb td:nth-child(2n+1){
+        float: left;
+        width: 20%;
+        padding-right: 10px;
+        margin-top: 5px;
+    }
+    .applay-tb textarea.applay-input{
+        width: 62%;
+    }
+    .applay-tb .submit{
+        position: relative;
+        display: block;
+        margin: 20px 0 0 20%;
+        left: 14px;
+    }
+    .applay-tb input[type="file"]{
+        width: 180px;
+    }
+}
+
+
+/*
+-----------
+** 留言表单  **
+-----------
+*/
+.msg-tb{
+    width: 960px;
+    margin: 0 auto;
+}
+.msg-tb .spred {
+    font-size: 18px;
+    font-family: Arial;
+    color:#F00;
+    margin-left: 12px;
+}
+.msg-tb {
+    border:0;
+    border-width: 0 0 1px 1px;
+}
+.msg-tb tr td {
+    padding: 8px 6px;
+    border:0;
+    border-width:1px 1px 0 0;
+    font-size: 14px;
+}
+.msg-tb tr td {
+    line-height: 1.8;
+}
+.msg-tb .msg-input{
+    width: 348px;
+    height: 18px;
+    padding: 8px 10px;
+    line-height: 18px;
+    color: #666;
+    border: 1px solid #dddddd;
+    box-shadow: 2px 2px 2px #f4f4f4 inset;
+    background: #fff;
+    font-size: 14px;
+}
+.msg-tb textarea.msg-input{
+    width: 820px;
+    height: 100px;
+}
+.msg-tb .msg-input.code{
+    width: 90px;
+    margin-right: 8px;
+}
+.msg-tb .submit{
+    width: 150px;
+    height: 35px;
+    background: #f88000;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+.msg-tb .error {
+    border-color: #D70128;
+}
+
+/*
+-----------
+** 应聘表单手机站  **
+-----------
+*/
+
+@media (max-width: 767px){
+    .msg-tb{
+        width:100%;
+        margin: 0 auto;
+    }
+    .msg-tb td{
+       display: block;
+       position: relative; 
+    }
+
+    .msg-tb td:nth-child(2n+1){
+        float: left;
+        width: 14%;
+        margin-top: 5px;
+        padding-right: 10px;
+    }
+    .msg-tb .msg-input{
+        width: 62%;
+    }
+    .msg-tb textarea.msg-input{
+        width: 62%;
+    }
+    .msg-tb .submit{
+        position: relative;
+        display: block;
+        margin: 20px 0 0 14%;
+        left: 12px;
+    }
+}
+
+
+
+

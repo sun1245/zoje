@@ -1,0 +1,204 @@
+
+<!DOCTYPE HTML><html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<!-- Force latest IE rendering engine or ChromeFrame if installed -->
+		<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<![endif]-->
+		<meta http-equiv="content-language" content="zh-CN" />
+		<title>后台管理传化合成材料后台管理 </title>
+		<meta name="copyright" content="2012" />
+		<link rel="shortcut icon" href="http://202.91.240.3:8095/chhc/static/img/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="http://202.91.240.3:8095/chhc/static/img/favicon.ico" mce_href="favicon.ico" type="image/x-icon">
+		<link rel="canonical" href="/"/>
+		<meta name="author" content="boc" />
+		<meta name="robots" content="deny" />
+		<script type="text/javascript" charset="utf-8">
+		//  初始化路径
+		var STATIC_URL  = "http://202.91.240.3:8095/chhc/static/" ;
+				var ADMINER_URL = "http://202.91.240.3:8095/chhc/bocadmin/index.php/" ;
+		var UPLOADDO_URL = "http://202.91.240.3:8095/chhc/bocadmin/index.php/upload/";
+				var UPLOAD_URL  = "http://202.91.240.3:8095/chhc/upload/" ;
+		var mime = ["video/*","image/*"];
+		var	today = '2014/06/16';
+		// cookie theme
+		</script>
+
+		<!--[if lt IE 9]>
+						
+		<![endif]-->
+
+
+		<!--[if lt IE 9]>    
+			<script src="http://202.91.240.3:8095/chhc/static/js/jquery-1.10.2.min.js?v=v1" type="text/javascript" charset="utf-8"></script>
+		<![endif]-->
+
+		<!--[if gte IE 9]>
+			<script src="http://202.91.240.3:8095/chhc/static/js/jquery-2.0.3.min.js?v=v1" type="text/javascript" charset="utf-8"></script>
+		<![endif]-->
+
+		<!--[if !IE]><!-->
+			<script src="http://202.91.240.3:8095/chhc/static/js/jquery-2.0.3.min.js?v=v1" type="text/javascript" charset="utf-8"></script>
+		<!--<![endif]-->
+		<link rel="stylesheet" href="http://202.91.240.3:8095/chhc/static/css/normalize.css?v=v1" type="text/css" media="screen" charset="utf-8"><link rel="stylesheet" href="http://202.91.240.3:8095/chhc/static/css/bootstrap.min.css?v=v1" type="text/css" media="screen" charset="utf-8"><link rel="stylesheet" href="http://202.91.240.3:8095/chhc/static/css/bootstrap-responsive.min.css?v=v1" type="text/css" media="screen" charset="utf-8"><link rel="stylesheet" href="http://202.91.240.3:8095/chhc/static/css/font-awesome.min.css?v=v1" type="text/css" media="screen" charset="utf-8"><link rel="stylesheet" href="http://202.91.240.3:8095/chhc/static/css/jquery.pnotify.css?v=v1" type="text/css" media="screen" charset="utf-8"><link rel="stylesheet" href="http://202.91.240.3:8095/chhc/static/css/bootstrap-select.css?v=v1" type="text/css" media="screen" charset="utf-8"><link rel="stylesheet" href="http://202.91.240.3:8095/chhc/static/css/adminer/ui.css?v=v1" type="text/css" media="screen" charset="utf-8">
+		
+		
+		<script src="http://202.91.240.3:8095/chhc/static/js/bootstrap.min.js?v=v1" type="text/javascript" charset="utf-8"></script><script src="http://202.91.240.3:8095/chhc/static/js/jquery.validate.js?v=v1" type="text/javascript" charset="utf-8"></script><script src="http://202.91.240.3:8095/chhc/static/js/jquery.validate.lang.cn.js?v=v1" type="text/javascript" charset="utf-8"></script><script src="http://202.91.240.3:8095/chhc/static/js/jquery.pnotify.min.js?v=v1" type="text/javascript" charset="utf-8"></script><script src="http://202.91.240.3:8095/chhc/static/js/jquery-ui-1.10.3.custom.min.js?v=v1" type="text/javascript" charset="utf-8"></script><script src="http://202.91.240.3:8095/chhc/static/js/jquery.cookie.js?v=v1" type="text/javascript" charset="utf-8"></script><script src="http://202.91.240.3:8095/chhc/static/js/bootstrap-bootbox.min.js?v=v1" type="text/javascript" charset="utf-8"></script><script src="http://202.91.240.3:8095/chhc/static/js/bootstrap-select.js?v=v1" type="text/javascript" charset="utf-8"></script><script src="http://202.91.240.3:8095/chhc/static/js/template.min.js?v=v1" type="text/javascript" charset="utf-8"></script><script src="http://202.91.240.3:8095/chhc/static/js/tools.js?v=v1" type="text/javascript" charset="utf-8"></script><script src="http://202.91.240.3:8095/chhc/static/js/adminer/ui.js?v=v1" type="text/javascript" charset="utf-8"></script><script src="http://202.91.240.3:8095/chhc/static/js/adminer/init.js?v=v1" type="text/javascript" charset="utf-8"></script>
+		<!--[if IE 6]>
+		<link rel="stylesheet" href="http://202.91.240.3:8095/chhc/static/css/bootstrap-ie6.css?v=v1" type="text/css" media="screen" charset="utf-8">		<script src="http://202.91.240.3:8095/chhc/static/js/bootstrap-ie6.js?v=v1" type="text/javascript" charset="utf-8"></script>		
+		<![endif]-->
+
+		<!-- 提供HTML5支持 Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+		<script src="http://202.91.240.3:8095/chhc/static/js/html5.min.js?v=v1" type="text/javascript" charset="utf-8"></script><script src="http://202.91.240.3:8095/chhc/static/js/respond.min.js?v=v1" type="text/javascript" charset="utf-8"></script><script src="http://202.91.240.3:8095/chhc/static/js/modernizr.js?v=v1" type="text/javascript" charset="utf-8"></script>
+		<![endif]-->
+	
+	</head>
+	<body>
+
+	<!-- sidebar background 侧边栏背景 -->
+	<div id="sidebar-bg"></div>
+	
+	<div id="body-main">
+		<!-- nav bar -->
+		<div class="navbar" id="body-navbar">
+			<div class="navbar-inner">
+				<div class="container">
+					<ul class="nav-logo pull-left">
+						<li>
+							<a href="http://www.bocweb.cn/" target="_blank"><img src="images/logo.png"></a>
+						</li>
+						<li>
+							<a  href="http://202.91.240.3:8095/chhc/bocadmin/index.php/"> BOC ADMINER </a></li>
+					</ul>
+					
+					<ul class="nav pull-right">
+																		<li>
+						 	<a href="http://202.91.240.3:8095/chhc/" target="_blank"> <span class="fa fa-globe"></span> 进入前端</a>
+						</li>
+						<li> <a href="http://202.91.240.3:8095/chhc/bocadmin/index.php/manager/edit/1"><i class="fa fa-user"></i> 超级用户 </a></li>
+						<!-- <li><a href="http://202.91.240.3:8095/chhc/bocadmin/index.php/msgs" style="border: 1px solid #ccc;border-width: 0 1px;padding-left: 5px;padding-right: 5px;"><i class="icon-envelope"></i>  </a></li> -->
+						<li> <a href="http://202.91.240.3:8095/chhc/bocadmin/index.php/login/logout"><i class='fa fa-sign-out'></i> 退出</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- end .navbar #body-navbar -->
+
+		<div class="container-fluid" id="body-body" >
+			<div class=""  id='side-bar'>
+				<!--Sidebar content-->
+				
+
+<ul class="nav nav-list nav-sidebar">
+
+	<li id="menu-welcome"><a href="http://202.91.240.3:8095/chhc/bocadmin/index.php/welcome"><div class="wp-menu-arrow"><div></div></div> <i class="fa fa-home" title="首页</span>"></i> <span class="i-title"> 首页</span> </a></li>
+
+	<li class="nav-header">
+		<i class='fa fa-sitemap' title="栏目"></i> <span class="i-title">栏目 </span> 
+	</li>
+<li class='dropdown-submenu'><a id='c1'href='javascript:void(0)' class='dropdown-toggle' data-toggle='dropdown' data-target='#'' title='关于我们'><div class="wp-menu-arrow"><div></div></div><i class="fa fa-circle-o" title="关于我们"> </i> <span class="i-title">关于我们</span></a><ul class="dropdown-menu"><li><a id='c2' href='http://202.91.240.3:8095/chhc/bocadmin/index.php/page/index/2' title='传化集团'><i class="fa fa-circle-o" title="传化集团"> </i> <span class="i-title">传化集团</span></a><li><li><a id='c3' href='http://202.91.240.3:8095/chhc/bocadmin/index.php/page/index/3' title='传化股份'><i class="fa fa-circle-o" title="传化股份"> </i> <span class="i-title">传化股份</span></a><li><li class='dropdown-submenu'><a id='c4'href='javascript:void(0)' class='dropdown-toggle' data-toggle='dropdown' data-target='#'' title='公司简介'><i class="fa fa-circle-o" title="公司简介"> </i> <span class="i-title">公司简介</span></a><ul class="dropdown-menu"><li><a id='c5' href='http://202.91.240.3:8095/chhc/bocadmin/index.php/page/index/5' title='简介'><i class="fa fa-circle-o" title="简介"> </i> <span class="i-title">简介</span></a><li><li><a id='c6' href='http://202.91.240.3:8095/chhc/bocadmin/index.php/links/index/6' title='图文列表'><i class="fa fa-circle-o" title="图文列表"> </i> <span class="i-title">图文列表</span></a><li></ul><li><li><a id='c7' href='http://202.91.240.3:8095/chhc/bocadmin/index.php/page/index/7' title='组织架构'><i class="fa fa-circle-o" title="组织架构"> </i> <span class="i-title">组织架构</span></a><li><li><a id='c8' href='http://202.91.240.3:8095/chhc/bocadmin/index.php/links/index/8' title='荣誉资质'><i class="fa fa-circle-o" title="荣誉资质"> </i> <span class="i-title">荣誉资质</span></a><li><li><a id='c9' href='http://202.91.240.3:8095/chhc/bocadmin/index.php/page/index/9' title='发展愿景'><i class="fa fa-circle-o" title="发展愿景"> </i> <span class="i-title">发展愿景</span></a><li></ul><li><li class='dropdown-submenu'><a id='c10'href='javascript:void(0)' class='dropdown-toggle' data-toggle='dropdown' data-target='#'' title='新闻动态'><div class="wp-menu-arrow"><div></div></div><i class="fa fa-circle-o" title="新闻动态"> </i> <span class="i-title">新闻动态</span></a><ul class="dropdown-menu"><li><a id='c11' href='http://202.91.240.3:8095/chhc/bocadmin/index.php/article/index/11' title='公司动态'><i class="fa fa-circle-o" title="公司动态"> </i> <span class="i-title">公司动态</span></a><li><li><a id='c12' href='http://202.91.240.3:8095/chhc/bocadmin/index.php/article/index/12' title='行业信息'><i class="fa fa-circle-o" title="行业信息"> </i> <span class="i-title">行业信息</span></a><li></ul><li><li class='dropdown-submenu'><a id='c13'href='javascript:void(0)' class='dropdown-toggle' data-toggle='dropdown' data-target='#'' title='产品与服务'><div class="wp-menu-arrow"><div></div></div><i class="fa fa-circle-o" title="产品与服务"> </i> <span class="i-title">产品与服务</span></a><ul class="dropdown-menu"><li><a id='c14' href='http://202.91.240.3:8095/chhc/bocadmin/index.php/page/index/14' title='产品世界'><i class="fa fa-circle-o" title="产品世界"> </i> <span class="i-title">产品世界</span></a><li><li><a id='c15' href='http://202.91.240.3:8095/chhc/bocadmin/index.php/page/index/15' title='成功应用'><i class="fa fa-circle-o" title="成功应用"> </i> <span class="i-title">成功应用</span></a><li><li><a id='c16' href='http://202.91.240.3:8095/chhc/bocadmin/index.php/page/index/16' title='服务体系'><i class="fa fa-circle-o" title="服务体系"> </i> <span class="i-title">服务体系</span></a><li></ul><li><li class='dropdown-submenu'><a id='c17'href='javascript:void(0)' class='dropdown-toggle' data-toggle='dropdown' data-target='#'' title='企业文化'><div class="wp-menu-arrow"><div></div></div><i class="fa fa-circle-o" title="企业文化"> </i> <span class="i-title">企业文化</span></a><ul class="dropdown-menu"><li><a id='c18' href='http://202.91.240.3:8095/chhc/bocadmin/index.php/page/index/18' title='品牌理念'><i class="fa fa-circle-o" title="品牌理念"> </i> <span class="i-title">品牌理念</span></a><li><li class='dropdown-submenu'><a id='c19'href='javascript:void(0)' class='dropdown-toggle' data-toggle='dropdown' data-target='#'' title='社会责任'><i class="fa fa-circle-o" title="社会责任"> </i> <span class="i-title">社会责任</span></a><ul class="dropdown-menu"><li><a id='c20' href='http://202.91.240.3:8095/chhc/bocadmin/index.php/page/index/20' title='简介'><i class="fa fa-circle-o" title="简介"> </i> <span class="i-title">简介</span></a><li><li><a id='c21' href='http://202.91.240.3:8095/chhc/bocadmin/index.php/duty/index/21' title='图文列表'><i class="fa fa-circle-o" title="图文列表"> </i> <span class="i-title">图文列表</span></a><li></ul><li><li><a id='c22' href='http://202.91.240.3:8095/chhc/bocadmin/index.php/download/index/22' title='传化内刊'><i class="fa fa-circle-o" title="传化内刊"> </i> <span class="i-title">传化内刊</span></a><li></ul><li><li class='dropdown-submenu'><a id='c23'href='javascript:void(0)' class='dropdown-toggle' data-toggle='dropdown' data-target='#'' title='加入我们'><div class="wp-menu-arrow"><div></div></div><i class="fa fa-circle-o" title="加入我们"> </i> <span class="i-title">加入我们</span></a><ul class="dropdown-menu"><li><a id='c24' href='http://202.91.240.3:8095/chhc/bocadmin/index.php/page/index/24' title='人才理念'><i class="fa fa-circle-o" title="人才理念"> </i> <span class="i-title">人才理念</span></a><li><li><a id='c25' href='http://202.91.240.3:8095/chhc/bocadmin/index.php/page/index/25' title='员工通道'><i class="fa fa-circle-o" title="员工通道"> </i> <span class="i-title">员工通道</span></a><li><li class='dropdown-submenu'><a id='c26'href='javascript:void(0)' class='dropdown-toggle' data-toggle='dropdown' data-target='#'' title='工作在传化'><i class="fa fa-circle-o" title="工作在传化"> </i> <span class="i-title">工作在传化</span></a><ul class="dropdown-menu"><li><a id='c27' href='http://202.91.240.3:8095/chhc/bocadmin/index.php/page/index/27' title='简介'><i class="fa fa-circle-o" title="简介"> </i> <span class="i-title">简介</span></a><li><li><a id='c28' href='http://202.91.240.3:8095/chhc/bocadmin/index.php/article/index/28' title='图文列表'><i class="fa fa-circle-o" title="图文列表"> </i> <span class="i-title">图文列表</span></a><li></ul><li><li><a id='c29' href='http://202.91.240.3:8095/chhc/bocadmin/index.php/recruit/index/29' title='校园招聘'><i class="fa fa-circle-o" title="校园招聘"> </i> <span class="i-title">校园招聘</span></a><li><li><a id='c30' href='http://202.91.240.3:8095/chhc/bocadmin/index.php/recruit/index/30' title='社会招聘'><i class="fa fa-circle-o" title="社会招聘"> </i> <span class="i-title">社会招聘</span></a><li></ul><li><li><a id='c32' href='http://202.91.240.3:8095/chhc/bocadmin/index.php/page/index/32' title='联系方式'><i class="fa fa-circle-o" title="联系方式"> </i> <span class="i-title">联系方式</span></a><li><li><a id='c33' href='http://202.91.240.3:8095/chhc/bocadmin/index.php/links/index/33' title='底部友情链接'><i class="fa fa-circle-o" title="底部友情链接"> </i> <span class="i-title">底部友情链接</span></a><li><li><a id='c34' href='http://202.91.240.3:8095/chhc/bocadmin/index.php/banners/index/34' title='首页Banners'><i class="fa fa-circle-o" title="首页Banners"> </i> <span class="i-title">首页Banners</span></a><li>
+    <li class="nav-header">
+        <i class="fa fa-globe" title="前端管理"></i> <span class="i-title">前端管理</span>
+    </li>
+
+    <li id='menu-feedback'><a href="http://202.91.240.3:8095/chhc/bocadmin/index.php/feedback"><i class="fa fa-comments-o" title="意见及投诉"></i> <span class="i-title"> 意见及投诉 </span> </a></li>
+    
+        <li id='menu-feedback'><a href="http://202.91.240.3:8095/chhc/bocadmin/index.php/recruit_apply"><i class="fa fa-comments-o" title="在线应聘"></i> <span class="i-title"> 在线应聘 </span> </a></li>
+
+	<li class="nav-header">
+        <i class="fa fa-cogs" title="管理"></i> <span class="i-title">管理</span>
+	</li>
+	<li id='menu-log'><a href="http://202.91.240.3:8095/chhc/bocadmin/index.php/log"><i class="fa fa-file" title="日志"></i> <span class="i-title">日志</span> </a></li>
+		<li id='menu-configs'><a href="http://202.91.240.3:8095/chhc/bocadmin/index.php/configs"><i class="fa fa-cog" title="站点配置"></i> <span class="i-title">站点配置</span> </a></li>
+			<li id='menu-modules'><a href="http://202.91.240.3:8095/chhc/bocadmin/index.php/modules"> <i class='fa fa-puzzle-piece' title="模块管理"></i> <span class="i-title">模块管理</span> </a></li>
+			<li id='menu-columns'><a href="http://202.91.240.3:8095/chhc/bocadmin/index.php/columns"> <i class='fa fa-list' title="栏目管理"></i> <span class="i-title">栏目管理</span> </a></li>
+			<li id='menu-manager_purview'><a href="http://202.91.240.3:8095/chhc/bocadmin/index.php/manager_purview"> <i class='fa fa-key' title="权限管理"></i> <span class="i-title">权限管理</span> </a></li>
+			<li id='menu-manager_group'><a href="http://202.91.240.3:8095/chhc/bocadmin/index.php/manager_group"><i class='fa fa-users' title="用户组管理"></i> <span class="i-title">用户组管理</span> </a></li>
+			<li id='menu-manager'><a href="http://202.91.240.3:8095/chhc/bocadmin/index.php/manager"> <i class='fa fa-user' title="帐号管理"></i> <span class="i-title">帐号管理</span> </a></li>
+	    <li id='menu-serverinfo'><a href="http://202.91.240.3:8095/chhc/bocadmin/index.php/serverinfo"><i class="fa fa-shield" title="服务器信息"></i> <span class="i-title">服务器信息</span></a></li>
+	<!-- <li id='menu-help'><a href="http://202.91.240.3:8095/chhc/bocadmin/index.php/help"><i class="fa fa-lightbulb-o" title="帮助"></i> <span class="i-title">帮助</span></a></li> -->
+	<li><a href="http://202.91.240.3:8095/chhc/bocadmin/index.php/login/logout"> <i class='fa fa-sign-out' title="退出"></i> <span class="i-title"> 退出</span> </a></li>
+</ul>
+<script>
+$(function(){
+    $('#sidebar a.dropdown-toggle').dropdown();
+        $("#menu-welcome").addClass('active');
+    });
+// TODO 侧边栏隐藏标题 图标样式 
+function hide_side() {
+    $('#side-bar .i-title').hide(100);
+    $('#side-bar').animate({'width':'60px'},300);
+    $('#sidebar-bg').animate({'width':'60px'},300);
+    $('#side-bar i').animate({'font-size':'18px'},300);
+    $('#body-content').animate({'margin-left':'80px'},300)
+}
+</script>			</div>
+			<div class="" id="body-content">
+				<div id="body-content-content">
+					<!--Body content-->
+<div class="row-fluid">
+
+<div class="boxed span4">
+	<div class="boxed-inner hg1">
+		<h3> <i class="fa fa-user-md"></i> 用户状态</h3>
+		<ul class="boxed-list">
+			<li>昵称： 超级用户 </li>
+			<li>用户组： 管理员 </li>
+			<li>登录IP： 115.238.95.194 </li>
+			<li>最后活动时间： 2014/06/16 - 09:25:01 </li>
+					</ul>
+	</div>
+</div>
+
+<div class="boxed span4">
+    <div class="boxed-inner hg1">
+        <h3> <i class="fa fa-shield"></i> 服务器</h3>
+        <ul class="boxed-list">
+            <li class="text-success"> 服务器地址 :  <span class='badge badge-success'> 202.91.240.3</span> </li><li class="text-success"> 服务器端口 :  <span class='badge badge-success'> 8095</span> </li><li class="text-success"> ./cache/可写 :  <span class='badge badge-success'> OK</span> </li><li class="text-success"> upload/可写 :  <span class='badge badge-success'> OK</span> </li><li class="text-success"> 上传大小限制 :  <span class='badge badge-success'> 200M</span> </li>        </ul>
+    </div>
+</div>
+
+<div class="boxed span4">
+	<div class="boxed-inner hg1">
+		<h3> <i class="fa fa-rss"></i> 博采公告</h3>
+		<ul class="boxed-list">
+		<li> <a target='_blank' href='http://www.bocweb.cn/news_info.php?43'> 浙江省百强企业案例汇总 </a> </li><li> <a target='_blank' href='http://www.bocweb.cn/news_info.php?42'> 声明 </a> </li>		</ul>
+	</div>
+</div>
+
+
+</div>
+
+
+				</div><!-- end body content content -->	
+			</div> <!-- end body content -->
+		</div> <!-- end #body-body .container -->
+		<div class='clear' id="footer-push"></div>
+	</div> <!-- end #body-main -->
+
+	<!-- footer -->
+	<div id="body-footer">
+		<div class="container-fluid">
+			<p class="muted credit"> Power by  <a href="http://www.bocweb.cn/" target="_blank"> &copy; 杭州博采互动</a> .</p>
+		</div>
+	</div>
+	<!-- end #body-footer -->
+	
+	<!-- debug show or hide -->
+	<!--xdebug-->
+<script type="text/javascript" charset="utf-8">
+if (!tools.isEmptyValue($('.xdebug-var-dump').toArray()) || !tools.isEmptyValue($('.xdebug-error').toArray()) ) {
+	$('.xdebug-var-dump').css('display','none');
+	$('.xdebug-error').css('display','none');
+}
+</script>
+<!-- 用来存储error -->
+<div id="php-error"></div>
+
+<link rel="stylesheet" href="sidebar.css" type="text/css" media="screen" charset="utf-8">
+
+</body>
+</html>
+

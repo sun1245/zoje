@@ -1,0 +1,112 @@
+@charset "utf-8";
+/**头部**/
+
+#body-main-login {
+
+&.container{
+  padding:50px 0; position:relative; overflow:hidden;
+  height:420px;
+}
+
+div.alert{
+  border-radius: 0;
+  border: 0;
+}
+span{font-size:13px;}
+span.error{
+  color:red;
+}
+
+.form-horizontal .control-group {padding:15px 25px;}
+.form-horizontal .form-actions {padding-left:25px;}
+
+#login{
+  position:absolute; 
+  top:50px; 
+  left:50%; 
+  margin-left:-190px;
+}
+
+#getpass{ 
+  position:absolute; 
+  top:50px;
+   left:50%; 
+  margin-left:190px; 
+  opacity:0; 
+  filter:alpha(opacity=0);
+}
+
+.boxed {
+  width: 320px;
+  max-width: 320px;
+  *max-width:320px;
+  padding: 19px 29px 29px;
+  margin: 0 auto;
+  background-color: #fff;
+
+  h3{
+   color:#006dcc; 
+   font-size:18px;
+  }
+   .boxed-inner{ 
+    // padding:5px 20px;
+  }
+
+  .boxed-footer{ 
+    padding:20px 25px;
+  
+    .btn-primary,
+    .btn-success{ 
+      width:100px; 
+      border-radius:2px; 
+      height:36px; 
+      font-weight:bold; 
+      font-size:16px;
+    }
+
+    .btn-success{ 
+      line-height:28px;height:28px; background-color:#006dcc;
+    }
+
+    .btn-success:hover,
+    .btn-success:focus,
+    .btn-success:active,
+    .btn-success.active,
+    .btn-success.disabled,
+    .btn-success[disabled] {
+      color: #ffffff;
+      background-color: #0044cc;
+      *background-color: #003bb3;
+    }
+
+    .btn-success:active,
+    .btn-success.active {
+      background-color: #003399  \9;
+    }
+  }
+}
+
+.input-append .add-on, 
+.input-prepend .add-on{ 
+  height:24px; font-size:24px;color:#ddd; padding:9px 5px;
+}
+
+.input-append input, 
+.input-prepend input{ 
+  height:34px;line-height:34px; font-size:16px; width:219px; font-weight:bold;
+}
+
+.control-group .input-append, 
+.control-group .input-prepend{
+  border-radius:5px; 
+  padding:0 5px; 
+  background:#fff;
+}
+
+.control-group.success .input-prepend, 
+.control-group.success .input-append{
+  border:1px solid #468840
+}
+
+}
+

@@ -1,0 +1,22 @@
+/*base*/
+.css-face{
+    transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+} 
+/*新闻模版五*/
+.newswarp5{width: 100%;height: auto;}
+.newswarp5 ul li{width: 100%;padding:70px 0;border-bottom: 1px solid #ddd;margin: 0}
+.newswarp5 ul li a{display: block;width:1200px;height: 100%;margin: 0 auto;cursor: pointer;vertical-align:top}
+.newswarp5 .time{width: 100px;height: auto;margin-top: 45px;margin-right: 70px;text-align: center;}
+.newswarp5 .time .date{font-size: 73px;color: #666666;height: 70px;line-height: 70px;display: block;}
+.newswarp5 .time .mouth,.newswarp5 .time .year{font-size: 18px;color: #666;display: block;}
+.newswarp5 .pic{width: 362px;height: 224px;}
+.newswarp5 .pic img{display: block;width: 362px;height: 224px;}
+.newswarp5 ul li:hover .pic img{transform:scale(1.05); -webkit-transform:scale(1.05);}
+.newswarp5 ul li:hover{background-color: #fff;}
+.newswarp5 .box{width: 570px;height: auto;padding-top: 5px;}
+.newswarp5 .box h2{display: block;margin-bottom: 10px;font-size: 18px;line-height: 27px;color: #333;font-weight: bold;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.newswarp5 .box .details{font-size: 16px; line-height: 25px;color: #666;margin-bottom: 20px;}
+.newswarp5 .box .details p{font-size: 16px;line-height: 25px;color: #666;}
+.newswarp5 .box .mose{display: block;width: 80px;height: 40px;font-size: 15px;line-height: 40px;color: #666;background: url(../img/bg10.png) 90% center no-repeat;transition: all 0.5s;-webkit-transition: all 0.5s;}
+.newswarp5 .box .mose:hover{background: url(../img/bg10.png) 100% center no-repeat;}
