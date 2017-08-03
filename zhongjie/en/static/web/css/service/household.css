@@ -1,9 +1,0 @@
-.flaot-box{width:67px;height:auto;position:fixed;bottom:5%;right:3%;}
-.flaot-box ul li{width:67px;height:67px;margin-bottom:19px;position:relative;}
-.flaot-box ul li span{background:#bcae9c;text-align:center;line-height:67px;display:block;border-radius:34px;cursor:pointer;transition-duration:500ms;}
-.flaot-box ul li:hover span{background:#7a6a55;transition-duration:500ms;}
-.wx-box{position:absolute;bottom:-120px;right:67px;display:none;}
-.ce_01:hover .wx-box{display:block;}
-.details{width:200px;height:200px;margin:0 auto;background:#fff;border:1px solid #f4f4f4;}
-.details p{width:100%;height:45px;line-height:45px;margin:0 auto 0;color:#333;font-size:14px;text-align:center;display:block;}
-.details span{width:116px;height:116px;margin:10px auto 0;display:block;text-align:center;background:#fff; }

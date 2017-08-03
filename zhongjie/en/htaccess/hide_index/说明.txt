@@ -1,8 +1,0 @@
-﻿
-隐藏url路径中的index.php，但是服务器空间不支持，需要重写规则。
-
-操作：
-
-1.将.htaccess文件放到项目根目录
-
-2.打开site/config/config文件，将$config['index_page'] = 'index.php';修改成 $config['index_page'] = '';即可
